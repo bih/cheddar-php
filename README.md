@@ -1,6 +1,6 @@
 ![Cheddar Logo](http://i.imgur.com/6G0Jv.png "Cheddar Logo")
 
-Hi. I've decided to build an awesome [Cheddar](https://cheddarapp.com) PHP library that allows you to send API calls to Cheddar with one or two lines of code.
+Hi. I've decided to build an awesome [Cheddar](https://cheddarapp.com) PHP library that allows you to send API calls to [Cheddar](https://cheddarapp.com) with one or two lines of code.
 
 Introduction
 ========
@@ -8,7 +8,7 @@ The framework is still in early stages, so we would not say it's ready for produ
 
 I'm actively working on the library, and would encourage other developers to play about it. I've thought about the convention over configuration philosophy to make Cheddar a breeze to work with, and I will focus on developing Cheddar PHP to continue this philosophy whilst it grows.
 
-There's still a lot of unused code in the library, because the Cheddar API is still actively being developed. We will update Cheddar PHP as and when Cheddar.com updates their API.
+There's still a lot of unused code in the library, because the Cheddar API is still actively being developed. We will update Cheddar PHP as and when Cheddarapp.com updates their API.
 
 Requirements
 ========
