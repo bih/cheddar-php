@@ -28,8 +28,11 @@ See example.php for a executable demo.
 2. Then you must use the code below to initiate Cheddar PHP. Update it with the relevant data.
 
 ``` $cheddar = new Cheddar_PHP( $app_id, $app_secret, $access_token = '' ); ```
+
 3. Then use the call() function to make a request. See [Cheddar API documentation](http://cheddarapp.com/developer) for more information.
+
 4. The data is returned in JSON. Use var_dump() and print_r() to obtain data and extract as necessary.
+
 5. Have fun!
 
 Author
