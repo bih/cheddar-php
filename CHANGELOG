@@ -1,0 +1,11 @@
+1.1.0 on 20th July 2012
+- Added custom oAuth support
+- Added Expect: to headers as a bug fix
+- Added Cheddar namespace
+- Added a simple example
+- Added CHANGELOG
+- Added debug option
+- Added PUT and DELETE support for updating/deleting data.
+- Removed constant CHEDDAR_PHP
+- Redesigned old example
+- Updated documentation to comply with PHPDocumentator

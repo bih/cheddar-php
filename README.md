@@ -1,39 +1,34 @@
-![Cheddar Logo](http://i.imgur.com/6G0Jv.png "Cheddar Logo")
+![Cheddar Logo](http://i.imgur.com/Beqwh.png "Cheddar Logo")
 
-Hi. I've decided to build an awesome [Cheddar](https://cheddarapp.com) PHP library that allows you to send API calls to [Cheddar](https://cheddarapp.com) with one or two lines of code.
+### Cheddar-PHP [v1.1] is a PHP5 library that works out of the box with [Cheddar](https://cheddarapp.com). It is free, minimalistic, actively maintained, and is fully documented with examples. ###
 
 Introduction
-========
-The framework is still in early stages, so we would not say it's ready for production just yet.
+------
+[Cheddar](http://cheddarapp.com) is an minimalist-and-cool task management tool that is always in sync. With the release of their API, I decided that it was time I should release more code on GitHub and I thought Cheddar would be a great start.
 
-I'm actively working on the library, and would encourage other developers to play about it. I've thought about the convention over configuration philosophy to make Cheddar a breeze to work with, and I will focus on developing Cheddar PHP to continue this philosophy whilst it grows.
+I build software to favour convention over configuration, and to "just work" similar to Cheddar. I've also designed my own implementation of oAuth that is incredibly simple and lightweight, so it requires no other additional libraries.
 
-There's still a lot of unused code in the library, because the Cheddar API is still actively being developed. We will update Cheddar PHP as and when Cheddarapp.com updates their API.
+The framework is being maintained, and I would say it's almost stable.
 
 Requirements
-========
-Cheddar PHP requires PHP 5, cURL, and safe_mode off.
-
-The library has only been tested for PHP 5. We would therefore advise you to only use PHP 5 until we've tested it on other installations.
+------
+Cheddar PHP requires at least PHP 5.3 and cURL.
 
 Installation
-========
-It's quite simple really. Just upload Cheddar.php to your server and include it in your files where it will be used.
+------
+Upload **Cheddar.php** to your folder. That's it!
 
 Instructions
-========
-See example.php for a executable demo.
+------
+See ```Example.php``` and ```Simple_Example.php``` for a executable demo.
 
-1. To use Cheddar PHP, you must first include the file.
-2. Then you must use the code below to initiate Cheddar PHP. Update it with the relevant data.
+1. Ensure the file has been included through ```require 'Cheddar.php'; ```
+2. Obtain your Cheddar Application ID/Secret [by clicking here](http://cheddarapp.com/developer/apps).
+3. Place your Application ID/Secret through ```$cheddar = new Cheddar\API('app_id=APP ID HERE&app_secret=APP_SECRET_HERE'); ```.
+4. See ```Example.php``` and make request you wish.
+4. The data is returned as an Object. Use ```var_dump()``` or ```print_r()``` to see the values necessary, or look at the examples.
 
-``` $cheddar = new Cheddar_PHP( $app_id, $app_secret, $access_token = '' ); ```
-
-3. Then use the call() function to make a request. See [Cheddar API documentation](http://cheddarapp.com/developer) for more information.
-
-4. The data is returned in JSON. Use var_dump() and print_r() to obtain data and extract as necessary.
-
-5. Have fun!
+**Have fun!**
 
 Author
 ========
