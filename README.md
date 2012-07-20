@@ -24,9 +24,10 @@ See ```Example.php``` and ```Simple_Example.php``` for a executable demo.
 
 1. Ensure the file has been included through ```require 'Cheddar.php'; ```
 2. Obtain your Cheddar Application ID/Secret [by clicking here](http://cheddarapp.com/developer/apps).
-3. Place your Application ID/Secret through ```$cheddar = new Cheddar\API('app_id=APP ID HERE&app_secret=APP_SECRET_HERE'); ```.
-4. See ```Example.php``` and make request you wish.
-4. The data is returned as an Object. Use ```var_dump()``` or ```print_r()``` to see the values necessary, or look at the examples.
+3. Ensure your Return URL is the page where ```$cheddar->get_access_token();``` is being called!
+4. Place your Application ID/Secret through ```$cheddar = new Cheddar\API('app_id=APP ID HERE&app_secret=APP_SECRET_HERE'); ```.
+5. See ```Example.php``` and make request you wish.
+6. The data is returned as an Object. Use ```var_dump()``` or ```print_r()``` to see the values necessary, or look at the examples.
 
 **Have fun!**
 
